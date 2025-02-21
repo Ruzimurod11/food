@@ -1,0 +1,29 @@
+@use "./scss/null" as *;
+@import url("https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap");
+
+* {
+   font-family: Outfit;
+   scroll-behavior: smooth;
+}
+
+body {
+   min-height: 100vh;
+   font-size: 16px;
+}
+
+$maxWidthContainer: 1470px;
+$textColor: #49557e;
+
+.app {
+   width: 80%;
+   margin: auto;
+}
+
+@keyframes fadeIn {
+   0% {
+      opacity: 0;
+   }
+   100% {
+      opacity: 1;
+   }
+}
